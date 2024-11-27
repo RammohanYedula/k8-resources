@@ -1,0 +1,11 @@
+apuVersion: v1
+kind: pod
+metadata:
+  name: hello-pod
+  namespace: roboshop
+spec:
+  containers:
+  - name: hello-pod
+    image: nginx
+    ports:
+    - containerPort: 80
