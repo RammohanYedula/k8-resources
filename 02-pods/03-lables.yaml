@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: label-demo
+  labels:
+    course: Devops
+    Trainer: Rammohan
+
+spec:
+  containers:
+  - name: helo-pod
+    image: nginx
+    ports:
+    - containerPort: 80
